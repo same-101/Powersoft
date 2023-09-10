@@ -19,9 +19,9 @@ this is Code in Powersoft
 ```powersoft
 @connect "std"
 
-fn main() {
+#fn main() {
     puts("This is Powersoft Code");
-    return ['end'] 0;
+    @return ['end'] 0;
 }
 ```
 ### Keywords
