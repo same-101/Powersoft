@@ -20,9 +20,8 @@ int main(int argc, char *argv[]) {
 
     if (fp != NULL) {
         while (fgets(FileString, BFFR_SIZE, fp)) {
-            printf("%s", FileString);
+            //// printf("%s", FileString);
         }
-        
     } else {}
     
 
