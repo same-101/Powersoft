@@ -23,6 +23,7 @@ int main(int argc, char *argv[]) {
             //// printf("%s", FileString);
         }
     } else {
+        printf("Can't find file %s.", argv[1]);
         return true;
     }
     
