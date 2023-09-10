@@ -22,7 +22,9 @@ int main(int argc, char *argv[]) {
         while (fgets(FileString, BFFR_SIZE, fp)) {
             //// printf("%s", FileString);
         }
-    } else {}
+    } else {
+        return true;
+    }
     
 
     return false;
